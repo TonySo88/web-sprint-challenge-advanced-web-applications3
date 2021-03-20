@@ -8,6 +8,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <h1>Hello World</h1>
         <Route exact path="/" component={Login} />
         {/* 
           Build a PrivateRoute component that will 
